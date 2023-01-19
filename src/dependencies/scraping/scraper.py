@@ -92,7 +92,7 @@ class Scraper:
             self.article_df.to_csv(filename, mode='a', index=False, encoding="utf-8")
             print(f'Successfully pushed {filename}')
         except Exception as e:
-            print(f'Could not save to Buclet Excepttion: {e}')
+            print(f'Could not save Excepttion: {e}')
 
     @timer_func
     def run(self):
